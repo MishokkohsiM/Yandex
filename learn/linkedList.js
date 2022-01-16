@@ -57,6 +57,21 @@ function LinkedList() {
 
         return elements
     }
+
+    this.indexOf = function (element) {
+        let currentNode = head
+        let index = -1
+        let indexOf = 0
+        while (currentNode && index === -1) {
+            if(currentNode.element === element) {
+                index = indexOf
+            }
+            indexOf += 1
+            currentNode = currentNode.next
+        }
+
+        return index
+    }
 }
 
 
@@ -66,4 +81,4 @@ for (let i = 0; i < 5; i++) {
     list.add(i)
 }
 
-console.log(list.getListElement())
+console.log(list.indexOf(5))

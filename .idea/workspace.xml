@@ -2,39 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="224fefd8-3251-4b09-a37f-24d4687f5f58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022/LastWordLength.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022/Loader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022/pluseOne.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn/Object.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn/linkedList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn/property-accessors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn/prototype-inheritance.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/organization/biznes-kredity.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/organization/credits.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/organization/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/organization/insurance.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/organization/ipoteka.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sravni/1s.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sravni/TryCatch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sravni/arabia.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sravni/cash.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sravni/consol.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sravni/context.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sravni/promis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sravni/zip.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5.js" beforeDir="false" afterPath="$PROJECT_DIR$/5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Anagrams.js" beforeDir="false" afterPath="$PROJECT_DIR$/Anagrams.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Promis.js" beforeDir="false" afterPath="$PROJECT_DIR$/Promis.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subobject.js" beforeDir="false" afterPath="$PROJECT_DIR$/Subobject.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Symmetric.js" beforeDir="false" afterPath="$PROJECT_DIR$/Symmetric.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/orders.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unpacking.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpacking.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/linkedList.js" beforeDir="false" afterPath="$PROJECT_DIR$/learn/linkedList.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +129,7 @@
       <workItem from="1635940959216" duration="4905000" />
       <workItem from="1641929035308" duration="1515000" />
       <workItem from="1642095453808" duration="952000" />
-      <workItem from="1642331202800" duration="2455000" />
+      <workItem from="1642331202800" duration="3142000" />
     </task>
     <servers />
   </component>
