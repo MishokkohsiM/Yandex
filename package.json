@@ -4,5 +4,12 @@
   "dependencies": {
     "node-fetch": "^3.0.0"
   },
-  "type":"module"
+  "scripts": {
+    "test": "jest"
+  },
+  "type": "module",
+  "devDependencies": {
+    "jest": "^27.4.7",
+    "require": "^2.4.20"
+  }
 }

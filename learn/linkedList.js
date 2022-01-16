@@ -2,7 +2,7 @@
 LinkedList
  */
 
-export function LinkedList() {
+function LinkedList() {
     let length = 0
     let head = null
 
@@ -16,7 +16,11 @@ export function LinkedList() {
     }
 
     this.head = function () {
-        return head
+        if (head) {
+            return head.element
+        }
+
+        return undefined
     }
 
     this.add = function (element) {
@@ -36,15 +40,21 @@ export function LinkedList() {
     }
 
     this.remove = function () {
+        if (!head) {
+            return undefined
+        }
         let currentNode = head
+        const elem = head.element
 
-        if(currentNode.next) {
+        if (currentNode.next) {
             head = currentNode.next
             length -= 1
         } else {
             head = null
             length = 0
         }
+
+        return elem
     }
 
     this.getListElement = function () {
@@ -74,3 +84,5 @@ export function LinkedList() {
         return index
     }
 }
+
+module.exports = LinkedList
