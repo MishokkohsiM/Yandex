@@ -2,7 +2,6 @@
 // Машу –> ['маша', 'махать', 'машу', ...]
 // ...
 const allSentences = (arrays) => {
-  const lengthArrays = arrays.length;
   const index = arrays.map(() => 0);
   let flag = false;
   return function func() {
@@ -34,8 +33,7 @@ const allSentences = (arrays) => {
 const nextSentence = allSentences([
   ['внучка', 'внучок'],
   ['маша', 'махать', 'машу'],
-  // ['Lol', 'kek', 'asdas']
-  // ... тут могут быть другие слова с любым количеством своих форм
+  ['1', '2']
 ]);
 
 console.log(nextSentence()); // 'внучка маша'
@@ -60,4 +58,40 @@ nextSentence(); // undefined
 Нужна реализация без итераторов.
 */
 
+const array = {
+  A: ['рубли', 'доллары'],
+  V: ['100', '200', '300'],
+  C: ['1', '2'],
+}
 
+const makeArray = (data) => {
+  const initial = [data]
+
+  let i = 0
+  const len = Object.keys(data).reduce((acc, key) => {
+    if (Array.isArray(data[key])) {
+      acc *= data[key].length
+    }
+
+    return acc
+  }, 1)
+
+  while (i < len) {
+    const currentObject = initial[0]
+
+    const keys = Object.keys(currentObject)
+    for (let j = 0; j < keys.length; j++) {
+      if (Array.isArray(currentObject[keys[j]])) {
+        initial.shift()
+        initial.push(...currentObject[keys[j]].map(value => ({ ...currentObject, [keys[j]]: value })))
+        break
+      }
+    }
+
+    i++
+  }
+
+  return initial
+}
+
+console.log(makeArray(array))

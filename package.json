@@ -1,0 +1,8 @@
+{
+  "name": "mishok",
+  "version": "4",
+  "dependencies": {
+    "node-fetch": "^3.0.0"
+  },
+  "type":"module"
+}

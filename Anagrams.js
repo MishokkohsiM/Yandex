@@ -4,23 +4,37 @@
 //split - разбивает строку по символу.
 //join
 
-const arr = ['кот', 'ток', 'aaaassq', 'asaaasq', 'mme', 'emm'];
+const arr = [
+  'АААВВ',
+  'ААВВВ',
+  'ААААА',
+  'ААААА',
+  'БОДРЯЧОК',
+  'ДОБРЯЧОК',
+  'КАНИСТРА',
+  'СТАРИКАН',
+  'СТАРИНКА',
+  'ВСЕПРОЩЕНИЕ',
+  'ПРОСВЕЩЕНИЕ',
+  'javascript',
+  'java'
+];
 
 
-const anagram = (arr) => {
-  if (!arr.length) {
-    return {};
+const anagram = (array) => {
+  if (!array.length) {
+    return [];
   }
   let result = {};
-  arr.forEach(value => {
-    const key = value.toLowerCase().split('').sort();
+  array.forEach(value => {
+    const key = value.toLowerCase().split('').sort().join('');
     if (!result[key]) {
       result[key] = [value];
     } else {
       result[key].push(value);
     }
   });
-  return result;
+  return Object.values(result);
 };
 
 console.log(anagram(arr));

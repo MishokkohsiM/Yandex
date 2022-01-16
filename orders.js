@@ -38,4 +38,6 @@ const func = (arr) => {
   return result;
 };
 
+console.time('a')
 console.log(func(arr));
+console.timeEnd('a')

@@ -7,7 +7,7 @@
 
 // [1, 'any [complex] string', null, function() {}, [1, 2, [3, '4'], 0], [], { a: 1 }];
 
-const a = [1, [2, 3, [4], [], 7], 5, 6];
+const a = [1, [2, 3, [4], ['a'], 7], 5, 6];
 
 const f = (array) => {
   if (!array.length) {

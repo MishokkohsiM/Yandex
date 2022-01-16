@@ -1,7 +1,7 @@
 const obj = {
   a : {
     b : {
-      c : 'lol',
+      c : 'example',
     },
   },
 };

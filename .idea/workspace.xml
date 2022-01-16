@@ -1,15 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="224fefd8-3251-4b09-a37f-24d4687f5f58" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="224fefd8-3251-4b09-a37f-24d4687f5f58" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022/LastWordLength.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022/Loader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022/pluseOne.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/Object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/linkedList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/property-accessors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/prototype-inheritance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/biznes-kredity.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/credits.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/insurance.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/ipoteka.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sravni/1s.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sravni/TryCatch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sravni/arabia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sravni/cash.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sravni/consol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sravni/context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sravni/promis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sravni/zip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5.js" beforeDir="false" afterPath="$PROJECT_DIR$/5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Anagrams.js" beforeDir="false" afterPath="$PROJECT_DIR$/Anagrams.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Promis.js" beforeDir="false" afterPath="$PROJECT_DIR$/Promis.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subobject.js" beforeDir="false" afterPath="$PROJECT_DIR$/Subobject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Symmetric.js" beforeDir="false" afterPath="$PROJECT_DIR$/Symmetric.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/orders.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpacking.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpacking.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1aDoh70CfVGmdCwg2NYbKhA63fF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -18,19 +70,57 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/organization" />
+      <recent name="$PROJECT_DIR$/sravni" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.linkedList.js">
+    <configuration name="Loader.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2022/Loader.js" working-dir="$PROJECT_DIR$/2022">
+      <method v="2" />
+    </configuration>
+    <configuration name="Object.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/learn/Object.js" working-dir="$PROJECT_DIR$/learn">
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="NodeJSConfigurationType" nameIsGenerated="true" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="linkedList.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/learn/linkedList.js" working-dir="$PROJECT_DIR$/learn">
+      <method v="2" />
+    </configuration>
+    <configuration name="pluseOne.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2022/pluseOne.js" working-dir="$PROJECT_DIR$/2022">
+      <method v="2" />
+    </configuration>
+    <configuration name="property-accessors.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/learn/property-accessors.js" working-dir="$PROJECT_DIR$/learn">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.Unnamed" />
+      <item itemvalue="Node.js.pluseOne.js" />
+      <item itemvalue="Node.js.Loader.js" />
+      <item itemvalue="Node.js.property-accessors.js" />
+      <item itemvalue="Node.js.Object.js" />
+      <item itemvalue="Node.js.linkedList.js" />
+    </list>
+    <recent_temporary>
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <item itemvalue="Node.js.linkedList.js" />
+        <item itemvalue="Node.js.Object.js" />
+        <item itemvalue="Node.js.property-accessors.js" />
+        <item itemvalue="Node.js.Loader.js" />
+        <item itemvalue="Node.js.pluseOne.js" />
       </list>
-    </option>
+    </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -44,10 +134,49 @@
       <workItem from="1586279642865" duration="15691000" />
       <workItem from="1586360798394" duration="16493000" />
       <workItem from="1586440622095" duration="15502000" />
+      <workItem from="1614794467101" duration="460000" />
+      <workItem from="1614882906141" duration="171000" />
+      <workItem from="1614883565984" duration="713000" />
+      <workItem from="1628247677525" duration="78000" />
+      <workItem from="1630434245930" duration="2916000" />
+      <workItem from="1630487008004" duration="792000" />
+      <workItem from="1631626207166" duration="3099000" />
+      <workItem from="1631775002604" duration="741000" />
+      <workItem from="1631802924871" duration="2105000" />
+      <workItem from="1632397808650" duration="2886000" />
+      <workItem from="1632591608699" duration="110000" />
+      <workItem from="1633025038157" duration="3111000" />
+      <workItem from="1633071305238" duration="1023000" />
+      <workItem from="1633079805788" duration="2856000" />
+      <workItem from="1633095648788" duration="1452000" />
+      <workItem from="1633434496578" duration="2654000" />
+      <workItem from="1633521215466" duration="4726000" />
+      <workItem from="1633613482464" duration="1708000" />
+      <workItem from="1633677767655" duration="165000" />
+      <workItem from="1633679309537" duration="15000" />
+      <workItem from="1633944359617" duration="2103000" />
+      <workItem from="1633960743402" duration="6391000" />
+      <workItem from="1634025794245" duration="2003000" />
+      <workItem from="1635940959216" duration="4905000" />
+      <workItem from="1641929035308" duration="1515000" />
+      <workItem from="1642095453808" duration="952000" />
+      <workItem from="1642331202800" duration="2455000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
