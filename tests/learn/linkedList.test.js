@@ -1,4 +1,4 @@
-const LinkedList = require('../../learn/linkedList');
+const { LinkedList } = require('../../learn/linkedList.js');
 
 const getList = (size) => {
     const list = new LinkedList()

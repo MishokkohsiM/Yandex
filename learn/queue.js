@@ -2,9 +2,9 @@
 Queue - First In First Out
  */
 
-import { LinkedList } from './linkedList.js';
+const { LinkedList } = require('../learn/linkedList.js');
 
-export function Queue () {
+function Queue () {
     const queue = new LinkedList()
 
     this.push = function (element) {
@@ -16,10 +16,7 @@ export function Queue () {
     }
 
     this.dequeue = function () {
-        const head = queue.head()
-        queue.remove()
-
-        return head.element
+        return queue.remove()
     }
 
     this.printQueue = function () {
@@ -27,3 +24,6 @@ export function Queue () {
     }
 }
 
+module.exports = {
+    Queue,
+}
