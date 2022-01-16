@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="224fefd8-3251-4b09-a37f-24d4687f5f58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/learn/doublyLinkedList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/stack.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/doublyLinkedList.js" beforeDir="false" afterPath="$PROJECT_DIR$/learn/doublyLinkedList.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +130,7 @@
       <workItem from="1635940959216" duration="4905000" />
       <workItem from="1641929035308" duration="1515000" />
       <workItem from="1642095453808" duration="952000" />
-      <workItem from="1642331202800" duration="5174000" />
+      <workItem from="1642331202800" duration="6427000" />
     </task>
     <servers />
   </component>

@@ -52,7 +52,11 @@ function DoublyLinkedList () {
             const nextNode = currentNode.next
             head = nextNode
             nextNode.prev = null
+            length --
         } else {
+            if (currentNode) {
+                length --
+            }
             head = null
         }
     }
@@ -61,6 +65,7 @@ function DoublyLinkedList () {
         const prevNode = tail && tail.prev
 
         if (prevNode) {
+            length --
             prevNode.next = null
             tail = prevNode
         }
@@ -79,6 +84,7 @@ function DoublyLinkedList () {
                     if(!node) {
                         this.deleteTail()
                     } else {
+                        length --
                         node.prev = prevNode
                         prevNode.next = node
                     }
@@ -107,9 +113,9 @@ function DoublyLinkedList () {
 
 const doubleList = new DoublyLinkedList()
 
-for (let i = 0; i <= -1; i++) {
+for (let i = 0; i <= 5; i++) {
     doubleList.add(i)
 }
 
-doubleList.deleteHead()
-console.log(doubleList.getArray())
+doubleList.delete(0)
+console.log(doubleList.size())
