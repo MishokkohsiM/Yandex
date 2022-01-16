@@ -2,7 +2,7 @@
 LinkedList
  */
 
-function LinkedList() {
+export function LinkedList() {
     let length = 0
     let head = null
 
@@ -21,6 +21,7 @@ function LinkedList() {
 
     this.add = function (element) {
         const node = new Node(element)
+        length += 1
         if (head === null) {
             head = node
         } else {
@@ -73,12 +74,3 @@ function LinkedList() {
         return index
     }
 }
-
-
-const list = new LinkedList()
-
-for (let i = 0; i < 5; i++) {
-    list.add(i)
-}
-
-console.log(list.indexOf(5))

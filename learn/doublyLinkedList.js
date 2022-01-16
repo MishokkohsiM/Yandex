@@ -12,7 +12,7 @@ ToString
 Reverse
  */
 
-function DoublyLinkedList () {
+export function DoublyLinkedList () {
     let length = 0
     let head = null
     let tail = null
@@ -110,12 +110,3 @@ function DoublyLinkedList () {
         return array
     }
 }
-
-const doubleList = new DoublyLinkedList()
-
-for (let i = 0; i <= 5; i++) {
-    doubleList.add(i)
-}
-
-doubleList.delete(0)
-console.log(doubleList.size())

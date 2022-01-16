@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="224fefd8-3251-4b09-a37f-24d4687f5f58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/learn/stack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/queue.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn/doublyLinkedList.js" beforeDir="false" afterPath="$PROJECT_DIR$/learn/doublyLinkedList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/linkedList.js" beforeDir="false" afterPath="$PROJECT_DIR$/learn/linkedList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/stack.js" beforeDir="false" afterPath="$PROJECT_DIR$/learn/stack.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,10 +54,7 @@
       <recent name="$PROJECT_DIR$/sravni" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.doublyLinkedList.js">
-    <configuration name="Loader.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2022/Loader.js" working-dir="$PROJECT_DIR$/2022">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.stack.js">
     <configuration name="Object.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/learn/Object.js" working-dir="$PROJECT_DIR$/learn">
       <method v="2" />
     </configuration>
@@ -72,21 +70,24 @@
     <configuration name="property-accessors.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/learn/property-accessors.js" working-dir="$PROJECT_DIR$/learn">
       <method v="2" />
     </configuration>
+    <configuration name="stack.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/learn/stack.js" working-dir="$PROJECT_DIR$/learn">
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Node.js.Unnamed" />
-      <item itemvalue="Node.js.Loader.js" />
       <item itemvalue="Node.js.property-accessors.js" />
       <item itemvalue="Node.js.Object.js" />
       <item itemvalue="Node.js.linkedList.js" />
       <item itemvalue="Node.js.doublyLinkedList.js" />
+      <item itemvalue="Node.js.stack.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.stack.js" />
         <item itemvalue="Node.js.doublyLinkedList.js" />
         <item itemvalue="Node.js.linkedList.js" />
         <item itemvalue="Node.js.Object.js" />
         <item itemvalue="Node.js.property-accessors.js" />
-        <item itemvalue="Node.js.Loader.js" />
       </list>
     </recent_temporary>
   </component>
@@ -130,7 +131,7 @@
       <workItem from="1635940959216" duration="4905000" />
       <workItem from="1641929035308" duration="1515000" />
       <workItem from="1642095453808" duration="952000" />
-      <workItem from="1642331202800" duration="6427000" />
+      <workItem from="1642331202800" duration="7361000" />
     </task>
     <servers />
   </component>

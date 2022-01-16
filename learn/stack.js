@@ -2,7 +2,7 @@
 Stack - Last In First Out
  */
 
-const Stack = function () {
+export function Stack () {
     let size = 0
     let storage = {}
 
@@ -29,16 +29,4 @@ const Stack = function () {
     this.pip = function () {
         return Object.values(storage).map(v => v)
     }
-}
-
-const stack = new Stack()
-
-for (let i = 0; i <= 10; i++) {
-    stack.push(i)
-}
-
-console.log(stack.pip())
-
-while (stack.size()) {
-    console.log(stack.pop())
 }
