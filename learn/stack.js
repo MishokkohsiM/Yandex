@@ -2,7 +2,7 @@
 Stack - Last In First Out
  */
 
-export function Stack () {
+function Stack () {
     let size = 0
     let storage = {}
 
@@ -27,6 +27,10 @@ export function Stack () {
     }
 
     this.pip = function () {
-        return Object.values(storage).map(v => v)
+        return Object.values(storage).map(v => v).reverse()
     }
+}
+
+module.exports = {
+    Stack,
 }
