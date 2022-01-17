@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="224fefd8-3251-4b09-a37f-24d4687f5f58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/learn/dataStructures/mySet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/learn/dataStructures/mySet.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn/doublyLinkedList.js" beforeDir="false" afterPath="$PROJECT_DIR$/learn/dataStructures/doublyLinkedList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn/linkedList.js" beforeDir="false" afterPath="$PROJECT_DIR$/learn/dataStructures/linkedList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn/queue.js" beforeDir="false" afterPath="$PROJECT_DIR$/learn/dataStructures/queue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn/stack.js" beforeDir="false" afterPath="$PROJECT_DIR$/learn/dataStructures/stack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongoDB/data-access/product/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mongoDB/data-access/product/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mongoDB/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mongoDB/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/learn/linkedList.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/learn/dataStructures/linkedList.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/learn/queue.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/learn/dataStructures/queue.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/learn/stack.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/learn/dataStructures/stack.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,18 +58,17 @@
       <recent name="$PROJECT_DIR$/sravni" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.mySet.js">
-    <configuration name="Stack.%s" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Node.js.index.js">
+    <configuration name="MySet" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/tests/learn/stack.test.js" />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/tests/learn/dataStructures/mySet.test.js" />
       <test-names>
-        <test-name value="Stack" />
-        <test-name value="%s" />
+        <test-name value="MySet" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -97,20 +88,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Jest.Stack.%s" />
       <item itemvalue="Node.js.Unnamed" />
       <item itemvalue="Node.js.Promis.js" />
       <item itemvalue="Node.js.example.js" />
       <item itemvalue="Node.js.index.js" />
       <item itemvalue="Node.js.mySet.js" />
+      <item itemvalue="Jest.MySet" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.mySet.js" />
         <item itemvalue="Node.js.index.js" />
+        <item itemvalue="Jest.MySet" />
+        <item itemvalue="Node.js.mySet.js" />
         <item itemvalue="Node.js.example.js" />
         <item itemvalue="Node.js.Promis.js" />
-        <item itemvalue="Jest.Stack.%s" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +146,7 @@
       <workItem from="1641929035308" duration="1515000" />
       <workItem from="1642095453808" duration="952000" />
       <workItem from="1642331202800" duration="15286000" />
-      <workItem from="1642439801960" duration="4903000" />
+      <workItem from="1642439801960" duration="5472000" />
     </task>
     <servers />
   </component>

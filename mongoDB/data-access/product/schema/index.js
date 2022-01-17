@@ -9,6 +9,11 @@ const BaseProduct = () => {
             type: String,
             required: true,
         },
+        amount: {
+            description: 'Цена',
+            example: '1000',
+            type: Number,
+        }
     })
 
     return schema
