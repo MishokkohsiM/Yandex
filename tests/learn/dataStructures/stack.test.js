@@ -1,4 +1,4 @@
-const { Stack } = require('../../learn/stack.js')
+const { Stack } = require('../../../learn/dataStructures/stack.js')
 
 const createStack = (size) => {
     const stack = new Stack()

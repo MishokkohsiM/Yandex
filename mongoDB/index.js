@@ -17,7 +17,7 @@ async function createProduct() {
    console.log(error)
   }
 
-  disconnect()
+  await disconnect()
 }
 
 createProduct();

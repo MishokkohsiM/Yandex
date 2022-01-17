@@ -2,7 +2,7 @@
 Queue - First In First Out
  */
 
-const { LinkedList } = require('../learn/linkedList.js');
+const { LinkedList } = require('./linkedList.js');
 
 function Queue () {
     const queue = new LinkedList()

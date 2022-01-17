@@ -1,4 +1,4 @@
-const { Queue } = require('../../learn/queue.js');
+const { Queue } = require('../../../learn/dataStructures/queue.js');
 
 const createQueue = (size) => {
     const queue = new Queue()
