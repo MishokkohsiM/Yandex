@@ -2,9 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="224fefd8-3251-4b09-a37f-24d4687f5f58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/learn/stack.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/data-access/mongoose.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/data-access/product/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/data-access/product/schema/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn/stack.js" beforeDir="false" afterPath="$PROJECT_DIR$/learn/stack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/organization/biznes-kredity.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organization/credits.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organization/ids.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organization/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organization/insurance.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organization/ipoteka.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organization/logo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organization/organizations.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +47,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mongoDB/data-access" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -47,14 +61,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mongoDB/data-access" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mongoDB/data-access/product" />
       <recent name="$PROJECT_DIR$/organization" />
       <recent name="$PROJECT_DIR$/sravni" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.Promis.js">
+  <component name="RunManager" selected="Node.js.index.js">
     <configuration name="Stack.%s" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -66,34 +82,6 @@
       <test-names>
         <test-name value="Stack" />
         <test-name value="%s" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Testing queue.Size %s" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/tests/learn/queue.test.js" />
-      <test-names>
-        <test-name value="Testing queue" />
-        <test-name value="Size %s" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Testing queue.deQueue %s" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/tests/learn/queue.test.js" />
-      <test-names>
-        <test-name value="Testing queue" />
-        <test-name value="deQueue %s" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -113,21 +101,27 @@
     <configuration name="Unnamed" type="NodeJSConfigurationType" nameIsGenerated="true" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="example.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/learn/callback/example.js" working-dir="$PROJECT_DIR$/learn/callback">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/mongoDB/index.js" working-dir="$PROJECT_DIR$/mongoDB">
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Node.js.Unnamed" />
-      <item itemvalue="Jest.Testing queue.deQueue %s" />
-      <item itemvalue="Jest.Testing queue.Size %s" />
       <item itemvalue="Jest.stack.test.js" />
       <item itemvalue="Jest.Stack.%s" />
+      <item itemvalue="Node.js.Unnamed" />
       <item itemvalue="Node.js.Promis.js" />
+      <item itemvalue="Node.js.example.js" />
+      <item itemvalue="Node.js.index.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.index.js" />
+        <item itemvalue="Node.js.example.js" />
         <item itemvalue="Node.js.Promis.js" />
         <item itemvalue="Jest.Stack.%s" />
         <item itemvalue="Jest.stack.test.js" />
-        <item itemvalue="Jest.Testing queue.Size %s" />
-        <item itemvalue="Jest.Testing queue.deQueue %s" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +165,8 @@
       <workItem from="1635940959216" duration="4905000" />
       <workItem from="1641929035308" duration="1515000" />
       <workItem from="1642095453808" duration="952000" />
-      <workItem from="1642331202800" duration="13506000" />
+      <workItem from="1642331202800" duration="15286000" />
+      <workItem from="1642439801960" duration="2862000" />
     </task>
     <servers />
   </component>

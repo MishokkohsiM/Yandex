@@ -9,7 +9,10 @@
   },
   "type": "module",
   "devDependencies": {
+    "dotenv": "^14.1.0",
     "jest": "^27.4.7",
+    "logger": "^0.0.1",
+    "mongoose": "^6.1.7",
     "require": "^2.4.20"
   }
 }
