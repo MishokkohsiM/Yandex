@@ -1,4 +1,4 @@
-import pkg from 'mongoose';
+const pkg = require('mongoose');
 const { Schema } = pkg;
 
 const BaseProduct = () => {
@@ -19,4 +19,6 @@ const BaseProduct = () => {
     return schema
 }
 
-export default pkg.model('Test', BaseProduct())
+module.exports = {
+    Schema: pkg.model('Test', BaseProduct())
+}
